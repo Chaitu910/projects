@@ -1,7 +1,7 @@
 package com.example.Member_Enrollment_at_POS;
 import java.security.SecureRandom;
 public class Activation_key_genarator {
-	static final String AB = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	static final String AB = "0123456789ABCDEFGHIJKLMNOPQRSTUVW";
 	static SecureRandom rnd = new SecureRandom();
 
 	String randomString(int len){
